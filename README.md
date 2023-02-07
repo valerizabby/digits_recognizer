@@ -39,5 +39,9 @@ My model            |  LeNet
 :-------------------------------------:|:-------------------------------------:
 ![model qr](http://qrcoder.ru/code/?https%3A%2F%2Ftensorboard.dev%2Fexperiment%2Fl3VbehpyRq6ySerHqZXlSg%2F%23scalars%26run%3D20230207-091753%252Ftrain&4&0)  |  ![lenet qr](http://qrcoder.ru/code/?https%3A%2F%2Ftensorboard.dev%2Fexperiment%2FXBoQEzU8RXGX6AvHZ7zNYQ%2F%23scalars&4&0)
 ## Телеграм-бот
- 
-## Вывод
+В качестве Api будем использовать [Telegram-бота](https://t.me/digits_recognizer_bot). Имеет небольшой функционал, главная цель которого - принимать и обрабатывать запрос в виде картинки с цифрой. Так как модели обучались на *очень* хороших данных, то при тесте своих изображений (которые не всегда были с равномерным фоном или с хорошо масштабированной цифрой) оказалось, что модели могут не очень хорошо отвечать. Пример работы: 
+<p align="center">
+
+  <img src="https://github.com/valerizabby/digits_recognizer/blob/main/pictures/exmp.jpg" height="400">
+
+</p>
